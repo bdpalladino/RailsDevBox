@@ -1,5 +1,5 @@
 # RailsDevBox
-This repository contains the necessary files to create an Ubuntu/Trusty64 vagrant box with Ruby 2.2.1, Rails 4.2.0, sqlite3 &amp; chruby pre-installed. 
+This repository contains the necessary files to create an Ubuntu/Trusty64 vagrant box with Ruby 2.1.5, Rails 4.1.0, sqlite3 &amp; chruby pre-installed. 
 
 Initial Setup:
   1. Download and install VirtualBox: https://www.virtualbox.org/
@@ -24,6 +24,3 @@ For more information on vagrant see: https://docs.vagrantup.com/v2/
 The file .ruby_version sets the default ruby version for the folder that contains it using chruby. This box uses ruby-install and chruby to install and manage ruby 2.2.1. 
 
 For more information about chruby and ruby-install see: https://github.com/postmodern/chruby  and  http://ryanbigg.com/2014/10/ubuntu-ruby-ruby-install-chruby-and-you//
-
-
-
