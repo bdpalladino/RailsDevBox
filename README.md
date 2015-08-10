@@ -24,3 +24,9 @@ For more information on vagrant see: https://docs.vagrantup.com/v2/
 The file .ruby_version sets the default ruby version for the folder that contains it using chruby. This box uses ruby-install and chruby to install and manage ruby 2.2.1. 
 
 For more information about chruby and ruby-install see: https://github.com/postmodern/chruby  and  http://ryanbigg.com/2014/10/ubuntu-ruby-ruby-install-chruby-and-you//
+
+Sometimes on windows machines Vagrant will not successfully ssh into the box, due to the boot being unsuccessfull. This issue could be due to Hyper-V being enabled. Steps to resolve:
+  1. Go to control panel
+  2. Click on programs and features
+  3. Select "Turn Windows Features on or off"
+  4. Expand Hyper-V and uncheck all options.
